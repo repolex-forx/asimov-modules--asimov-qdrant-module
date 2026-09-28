@@ -1,0 +1,18 @@
+[2026-09-28T07:23:50Z] === ENRICH ITERATION 1 START | repo=asimov-modules/asimov-qdrant-module sha=24a85199 ===
+[2026-09-28T07:23:50Z] [iter=1] PHASE START: enrich repo=asimov-modules/asimov-qdrant-module sha=24a85199 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/24a85199-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/24a851997695d3c6a2bea12932a827f20be6b871.nq.gz
+[2026-09-28T07:24:00Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-28T07:24:00Z] [iter=1] AST store loaded triples=5011 load_secs=0 mem_mb=94 MB
+[2026-09-28T07:24:00Z] [iter=1] Step 2: Finding LSP targets mem_mb=94 MB
+[2026-09-28T07:24:00Z] [iter=1] LSP targets found call_sites=54 imports=3 extends=0 implements=0 secs=0
+[2026-09-28T07:24:00Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=94 MB
+[2026-09-28T07:24:00Z] [iter=1] Position index built positions=346 nodes_with_types=426 secs=0 mem_mb=94 MB
+[2026-09-28T07:24:00Z] [iter=1] Step 3: Starting LSP resolution mem_mb=94 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T07:24:00Z] [iter=1] Resolving target type target_type=call_site count=54
+[2026-09-28T07:24:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=0 resolved=0 errors=0 current=src/indexer/main.rs
+[2026-09-28T07:25:15Z] [iter=1] Target type resolved target_type=call_site resolved=32 errors=0 secs=75 mem_mb=96 MB
+[2026-09-28T07:25:15Z] [iter=1] Resolving target type target_type=import_statement count=3
+[2026-09-28T07:25:18Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=1.5 files_done=0 resolved=0 errors=0 current=src/indexer/main.rs
+[2026-09-28T07:25:29Z] [iter=1] Target type resolved target_type=import_statement resolved=3 errors=0 secs=13 mem_mb=96 MB
+[2026-09-28T07:25:42Z] [iter=1] Step 5: Writing final enrichment file triples=437
+[2026-09-28T07:25:42Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/24a851997695d3c6a2bea12932a827f20be6b871.nq.gz size_kb=5
+[2026-09-28T07:25:42Z] [iter=1] PHASE END: enrich elapsed_s=112 elapsed_min=1.9 total_triples=437

@@ -30,6 +30,108 @@
       ],
       "ast": [
         "aggregate/ast/24a851997695d3c6a2bea12932a827f20be6b871/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/24a851997695d3c6a2bea12932a827f20be6b871.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "asimov-module",
+          "ecosystem": "CARGO",
+          "version": "25.0.0-dev.16",
+          "githubOrg": "asimov-platform",
+          "githubRepo": "asimov.rs",
+          "githubCommit": "e9ff59156d04f9d9a43fc27b5d8409455cdf527c",
+          "githubTag": "25.0.0-dev.16",
+          "githubUrl": "https://github.com/asimov-platform/asimov.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "dogma",
+          "ecosystem": "CARGO",
+          "version": "0.1.11",
+          "githubOrg": "dogmatists",
+          "githubRepo": "dogma.rs",
+          "githubCommit": "05158408aca889a5bcc4ede013c42603f4e1c3c8",
+          "githubTag": "0.1.11",
+          "githubUrl": "https://github.com/dogmatists/dogma.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clientele",
+          "ecosystem": "CARGO",
+          "version": "0.3.8",
+          "githubOrg": "dryrust",
+          "githubRepo": "clientele.rs",
+          "githubCommit": "18a9d41f329119836131c590ec8710bdddc65862",
+          "githubTag": "0.3.8",
+          "githubUrl": "https://github.com/dryrust/clientele.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "fastembed",
+          "ecosystem": "CARGO",
+          "version": "5",
+          "githubOrg": "Anush008",
+          "githubRepo": "fastembed-rs",
+          "githubUrl": "https://github.com/Anush008/fastembed-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "qdrant-client",
+          "ecosystem": "CARGO",
+          "version": "1.15",
+          "githubOrg": "qdrant",
+          "githubRepo": "rust-client",
+          "githubUrl": "https://github.com/qdrant/rust-client",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "uuid",
+          "ecosystem": "CARGO",
+          "version": "=0.6.5",
+          "githubOrg": "uuid-rs",
+          "githubRepo": "uuid",
+          "githubUrl": "https://github.com/uuid-rs/uuid",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "dotenvy",
+          "ecosystem": "CARGO",
+          "version": "0.15.7",
+          "githubOrg": "allan2",
+          "githubRepo": "dotenvy",
+          "githubCommit": "e330110a7cd9064ec913e554c9fc325c9d7cdb88",
+          "githubTag": "v0.15.7",
+          "githubUrl": "https://github.com/allan2/dotenvy",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dotenvy-0.15.7/src/lib.rs"
+        }
       ]
     }
   ],
