@@ -132,7 +132,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/dotenvy-0.15.7/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/24a851997695d3c6a2bea12932a827f20be6b871/chunk-001.nq.gz",
+      "dep": "dep/24a851997695d3c6a2bea12932a827f20be6b871.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
